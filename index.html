@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Web HTML 1</title>
     <style>
+        .border{
+            box-sizing: border-box;
+            margin: 0 300px;
+            border-left: 1px solid rgb(0, 138, 138);
+            border-top: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+        }
         .img{
             display: flex;
             justify-content: center;
@@ -34,41 +41,44 @@
 </head>
 <body>
     
-    <div class="img">
-        <img src="Image/html.png" alt="Image Crash">
-    </div>
-
-    <p>A <b>single-page application (SPA)</b> is a <a href="#">web application</a> or <a href="#">web site</a> that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server. This approach avoids interruption of the <a href="#">user experience</a> between successive pages, making the application behave more like a <a href="#">desktop application</a>.</p>
-
-    <hr>
-
-    <h2>Contents</h2>
+    <div class="border">
+        <div class="img">
+            <img src="Image/html.png" alt="Image Crash">
+        </div>
     
-    <div class="blue">
-        <ol>
-            <li>History</li>
-            <li>Technical approaches</li>
+        <p>A <b>single-page application (SPA)</b> is a <a href="#">web application</a> or <a href="#">web site</a> that interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server. This approach avoids interruption of the <a href="#">user experience</a> between successive pages, making the application behave more like a <a href="#">desktop application</a>.</p>
+    
+        <hr>
+    
+        <h2>Contents</h2>
+        
+        <div class="blue">
             <ol>
-                <li>Javascript Frameworks</li>
-                <li>Ajax</li>
-                <li>Web Socket</li>
+                <li>History</li>
+                <li>Technical approaches</li>
+                <ol>
+                    <li>Javascript Frameworks</li>
+                    <li>Ajax</li>
+                    <li>Web Socket</li>
+                </ol>
+                <li>Challenges with the SPA model</li>
+                <ul>
+                    <li>Search engine optimization</li>
+                    <li>Client/Server code partitioning</li>
+                    <li>Browser <span class="under">History</span></li>
+                </ul>
             </ol>
-            <li>Challenges with the SPA model</li>
-            <ul>
-                <li>Search engine optimization</li>
-                <li>Client/Server code partitioning</li>
-                <li>Browser <span class="under">History</span></li>
-            </ul>
-        </ol>
-    </div>
-
+        </div>
     
-    <br>
-    <hr>
-
-    <h2>History</h2>
-
-    <p>The <i>origins</i> of the term <i>single-page application</i> are <mark>unclear</mark>, though the <span class="garis">concep</span> concept was discussed at least as early as 2003. <sup><a href="#">[3]</a></sup> <a href="#">Stuart (stunix) Morris</a> wrote the Self-Contained website at least slashdotslash.com with the same goals and functions in April 2002 <sup><a href="#">[4]</a></sup> and alter the same year, <i>Lucas Birdeau</i>, Kevin Hakman, Michael Peachey and Evan Yeh described a single page application implementation in the US patent 8,136,109. <sub><a href="#">[4]</a></sub></p>
+        
+        <br>
+        <hr>
+    
+        <h2>History</h2>
+    
+        <p>The <i>origins</i> of the term <i>single-page application</i> are <mark>unclear</mark>, though the <span class="garis">concep</span> concept was discussed at least as early as 2003. <sup><a href="#">[3]</a></sup> <a href="#">Stuart (stunix) Morris</a> wrote the Self-Contained website at least slashdotslash.com with the same goals and functions in April 2002 <sup><a href="#">[4]</a></sup> and alter the same year, <i>Lucas Birdeau</i>, Kevin Hakman, Michael Peachey and Evan Yeh described a single page application implementation in the US patent 8,136,109. <sub><a href="#">[4]</a></sub></p>
+    
+    </div>
 
 </body>
 </html>
